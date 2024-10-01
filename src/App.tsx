@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { PunctuationDisplay, SevenSegmentDisplay } from './SevenSeg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <SevenSegmentDisplay digit={0} />
+      <SevenSegmentDisplay digit={1} />
+      <PunctuationDisplay chr=':'/>
+      <SevenSegmentDisplay digit={2} />
+      <SevenSegmentDisplay digit={3} />
+      <PunctuationDisplay chr=':'/>
+      <SevenSegmentDisplay digit={4} />
+      <SevenSegmentDisplay digit={5} />
+      <PunctuationDisplay chr=':'/>
+      <SevenSegmentDisplay digit={6} />
+      <SevenSegmentDisplay digit={7} />
+      <PunctuationDisplay chr='.'/>
+      <SevenSegmentDisplay digit={8} />
+      <SevenSegmentDisplay digit={9} />
+      </div>
   );
 }
 

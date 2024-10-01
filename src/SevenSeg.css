@@ -1,0 +1,91 @@
+.seven-segment-display {
+  display: grid inline;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 35% 10% 35% 10%;
+  top: 1vh;
+  height: 80vh;
+  left: 1vw;
+  width: 8vw;
+  background-color: white;
+}
+.punctuation-display {
+  display: grid inline;
+  height: 90vh;
+  width: 4vw;
+  grid-template-columns: 5% 95% 5%;
+  /*                   1   2   3   4   5  6  */
+  grid-template-rows: 24% 12% 20% 12% 20% 12% ;
+  margin: 2px;
+}
+#p0 {
+  background-color: white;
+  grid-row:1;
+  grid-column: 2;
+}
+#p1 {
+  grid-row:2;
+  grid-column: 2;
+}
+#p2 {
+  background-color: white;
+  grid-row:3;
+  grid-column: 2;
+}
+#p3 {
+  grid-row:4;
+  grid-column: 2;
+}
+#p4 {
+  background-color: white;
+  grid-row:5;
+  grid-column: 2;
+}
+#p5 {
+  grid-row:6;
+  grid-column: 2;
+}
+
+.SEG0 {
+  background-color: whitesmoke;
+  margin: .5px;
+}
+
+.SEG1 {
+  background-color: red;
+  margin: .5px;
+}
+
+#s0 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#s1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+#s2 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#s3 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+#s4 {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+#s5 {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+#s6 {
+  grid-row: 5;
+  grid-column: 2;
+}
